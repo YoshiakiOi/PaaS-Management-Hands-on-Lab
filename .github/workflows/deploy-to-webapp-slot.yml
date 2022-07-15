@@ -1,4 +1,4 @@
-name: [Slot] Build and deploy ASP.Net Core app to Azure Web App
+name: Slot - Build and deploy ASP.Net Core app to Azure Web App
 
 on:
   workflow_dispatch:
