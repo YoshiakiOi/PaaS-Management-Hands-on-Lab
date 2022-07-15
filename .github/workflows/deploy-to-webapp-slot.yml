@@ -46,7 +46,7 @@ jobs:
     runs-on: windows-latest
     needs: build
     environment:
-      name: 'yoocw-test'
+      name: 'staging'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
