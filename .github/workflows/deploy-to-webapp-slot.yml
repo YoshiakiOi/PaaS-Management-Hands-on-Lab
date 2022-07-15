@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'yoocw(staging)'
           slot-name: 'staging'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_dcdb3b7d5b82498d9328b717539300de}}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_STAGING_PROFILE }}
           package: .
